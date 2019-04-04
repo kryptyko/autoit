@@ -1,0 +1,8 @@
+$winsize = WinGetPos("Diablo II")
+ $borderwidth = ($winsize[2] - 800) / 2
+ $titleheight = $winsize[3] - 600 - (2 * $borderwidth)
+ 
+ msgbox("", "", $borderwidth & " " & $titleheight)
+
+
+_MouseClickPlus( "Diablo II", "left", 525 - $borderwidth, 585 - $TitleHeight )
